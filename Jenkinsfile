@@ -8,7 +8,6 @@ pipeline {
        steps {
          input ('Building the application... Do you wish to proceed to testing phase?')
          javac JavaApp.java
-         java JavaApp
       }
     }
      stage("test") {
