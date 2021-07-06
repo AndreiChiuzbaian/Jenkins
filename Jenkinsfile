@@ -16,7 +16,7 @@ pipeline {
     }
      stage("deploy") {
        steps {
-         input ('Deploying the application... Do you wish to proceed to the next stage?')
+         input ('Deploying the application... Do you wish to proceed and deploy the app?')
       }
     }
   }
